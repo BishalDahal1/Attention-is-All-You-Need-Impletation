@@ -13,7 +13,7 @@ This project implements the "Attention Is All You Need" architecture (Vaswani et
 ## 🧠 Key Features
 - **Custom Implementation:** `MultiHeadAttention`, `PositionwiseFeedforward`, and `Encoder/Decoder` layers written from scratch.
 - **Data Processing:** Manual vocabulary construction and tokenization. The model parses raw text files to build a custom string-to-index mapping without relying on heavy external tokenizers like spaCy or BERT.
-- **Optimization:** Trained for 50 epochs with `Adam` optimizer and `ReduceLROnPlateau`.
+- **Optimization:** Trained for 50 epochs with `Adam` optimizer.
 
 ## 📊 Results
 - **Training Loss:** ~2.45
